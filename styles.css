@@ -21,16 +21,20 @@ header {
 a.header {
   color: red;
   float: right;
+  font-size: 1.25rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
 }
 
 h1 {
   color: white;
+  font-weight: normal;
   float: left;
   clear: both;
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding-left: 2.5rem;
   margin-bottom: 0rem;
-  margin-top: 5rem;
+  margin-top: 3.5rem;
 }
 
 p.header {
@@ -39,6 +43,7 @@ p.header {
   float: left;
   padding-left: 2.5rem;
   clear: both;
+  font-size: 1.25rem;
 }
 
 /*
@@ -65,5 +70,6 @@ li a {
     display: block;
     color: purple;
     text-align: center;
+    font-size: 1.10rem;
     padding: 14px 16px;
 }
