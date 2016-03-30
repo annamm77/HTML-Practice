@@ -1,0 +1,69 @@
+/*
+GENERAL
+*/
+
+* {
+  font-family: "Arial";
+  /*font-size: 18px;*/
+}
+
+/*
+HEADER
+*/
+
+header {
+  color: gray;
+  background-color: black;
+  height: 15rem;
+  position: relative;
+}
+
+a.header {
+  color: red;
+  float: right;
+}
+
+h1 {
+  color: white;
+  float: left;
+  clear: both;
+  font-size: 2.5rem;
+  padding-left: 2.5rem;
+  margin-bottom: 0rem;
+  margin-top: 5rem;
+}
+
+p.header {
+  margin-top: 0rem;
+  margin-bottom:0rem;
+  float: left;
+  padding-left: 2.5rem;
+  clear: both;
+}
+
+/*
+NAV IN HEADER
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+}
