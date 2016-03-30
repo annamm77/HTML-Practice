@@ -4,12 +4,15 @@ GENERAL
 
 * {
   font-family: "Arial";
-  /*font-size: 18px;*/
 }
 
 /*
 HEADER
 */
+
+html {
+  position:relative;
+}
 
 header {
   color: gray;
@@ -18,7 +21,7 @@ header {
   position: relative;
 }
 
-a.header {
+header a {
   color: red;
   float: right;
   font-size: 1.25rem;
@@ -37,7 +40,7 @@ h1 {
   margin-top: 3.5rem;
 }
 
-p.header {
+header p {
   margin-top: 0rem;
   margin-bottom:0rem;
   float: left;
@@ -50,16 +53,17 @@ p.header {
 NAV IN HEADER
 */
 
+nav {
+  text-align: center;
+}
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: lightgray;
     width: 100%;
+    height: 2.5rem;
     position: absolute;
     bottom: 0;
-    text-align: center;
 }
 
 li {
@@ -67,9 +71,53 @@ li {
 }
 
 li a {
-    display: block;
     color: purple;
     text-align: center;
     font-size: 1.10rem;
-    padding: 14px 16px;
+    padding-bottom: 1rem;
 }
+
+/*SIDE BAR
+CAT OF THE WEEK*/
+
+aside {
+  width: 33%;
+  float: right;
+  border: .10rem solid black;
+  margin-right: 2.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*MAIN SECTION
+STORY & TESTIMONIALS*/
+
+section {
+  float:left;
+  width: 65%
+}
+
+/*FOOTER
+CONTACT INFO & COPYRIGHT*/
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: black;
+  color: white
+}
+
+footer p {
+  text-align: center;
+}
+
+/*IMAGES*/
+/*img.scale {
+height: 200;
+width: 300;
+display: block;
+width: auto;
+max-width: 100%;
+}*/
