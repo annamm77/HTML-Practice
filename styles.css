@@ -119,8 +119,13 @@ p.right {
   text-align: right;
 }
 
+p.left {
+  text-align: left;
+}
+
 aside a{
   color: red;
+  text-align: left;
 }
 /*MAIN SECTION
 STORY & TESTIMONIALS*/
@@ -152,6 +157,8 @@ footer {
   color: white;
   float: left;
   clear: both;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
 }
 
 footer p {
