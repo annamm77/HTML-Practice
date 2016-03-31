@@ -10,10 +10,10 @@ GENERAL
 HEADER
 */
 
-html {
-  position:relative;
+img {
+  width: 75%;
+  height: 75%;
 }
-
 header {
   color: gray;
   background-color: black;
@@ -84,40 +84,76 @@ aside {
   width: 33%;
   float: right;
   border: .10rem solid black;
-  margin-right: 2.5rem;
-  padding-right: 1.5rem;
+  align-self: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
   padding-left: 1.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: .5rem;
+  text-align: center;
 }
 
+aside h2 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+aside img {
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+}
+
+aside h3 {
+  font-size: 1.4rem;
+  margin-top: 0rem;
+  margin-bottom: .5rem;
+}
+
+aside p {
+  font-size: 1.25rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+p.right {
+  text-align: right;
+}
+
+aside a{
+  color: red;
+}
 /*MAIN SECTION
 STORY & TESTIMONIALS*/
 
 section {
   float:left;
-  width: 65%
+  width: 55%;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
 }
 
+section h2 {
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+section p {
+  font-size: 1.25rem;
+}
+
+p.quote {
+  font-style: italic;
+}
 /*FOOTER
 CONTACT INFO & COPYRIGHT*/
 footer {
-  position:absolute;
-  bottom:0;
   width:100%;
   background-color: black;
-  color: white
+  color: white;
+  float: left;
+  clear: both;
 }
 
 footer p {
   text-align: center;
 }
-
-/*IMAGES*/
-/*img.scale {
-height: 200;
-width: 300;
-display: block;
-width: auto;
-max-width: 100%;
-}*/
